@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/form_result_nav_graph"
+    app:startDestination="@id/searchFormFragment">
+
+    <fragment
+        android:id="@+id/searchFormFragment"
+        android:name="com.example.eventfinder.SearchFormFragment"
+        android:label="Search Form"
+        tools:layout="@layout/fragment_search_form">
+        <action
+            android:id="@+id/action_searchFormFragment_to_resultFragment"
+            app:destination="@id/resultFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right">
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.eventfinder.ResultFragment"
+        android:label="Result"
+        tools:layout="@layout/fragment_result" >
+    </fragment>
+</navigation>

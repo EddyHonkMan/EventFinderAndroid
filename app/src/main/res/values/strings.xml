@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">EventFinder</string>
+    <string name="keyword_hint">Enter the Keyword</string>
+    <string name="search">Search</string>
+    <string name="clear">Clear</string>
+    <string name="keyword">Keyword*</string>
+    <string name="distance_miles">Distance (Miles)*</string>
+    <string name="default_distance">10</string>
+    <string name="category">Category*</string>
+    <string name="location">Location*</string>
+    <string name="auto_detect">Auto-Detect</string>
+    <string name="enter_the_location">Enter the Location</string>
+    <string name="back_to_search">Back to Search</string>
+    <string name="content_description_black_back_icon">content_description_black_back_icon</string>
+    <string name="content_description_like_btn">content_description_like_btn</string>
+    <string name="favorites_tab_title">FAVORITES</string>
+    <string name="no_favorites_available">No favorites available</string>
+    <string name="no_events_found">No events found</string>
+    <string name="content_description_green_back_icon">content_description_green_back_icon</string>
+    <string name="content_description_twitter_icon">content_description_twitter_icon</string>
+    <string name="content_description_facebook_icon">content_description_facebook_icon</string>
+    <string name="artist_teams">Artist/Teams</string>
+    <string name="venue">Venue</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="genres">Genres</string>
+    <string name="price_range">Price Range</string>
+    <string name="buy_tickets_at">Buy Tickets At</string>
+    <string name="content_description_seatmap">content_description_seatmap</string>
+    <string name="popularity">Popularity</string>
+    <string name="popular_albums">Popular Albums</string>
+    <string name="artist_music_data_unavailable">Artist/Music data unavailable</string>
+    <string name="check_out_on_spotify">Check out on Spotify</string>
+    <string name="name">Name</string>
+    <string name="city_state">City/State</string>
+    <string name="contact_info">Contact Info</string>
+    <string name="open_hours">Open Hours</string>
+    <string name="general_rules">General Rules</string>
+    <string name="child_rules">Child Rules</string>
+    <string name="address">Address</string>
+    <string name="venue_detail_not_available">Venue detail not available</string>
+    <string name="event_detail_not_available">Event detail not available</string>
+    <string-array name="category_entries">
+        <item>All</item>
+        <item>Music</item>
+        <item>Sports</item>
+        <item>Arts &amp; Theatre</item>
+        <item>Film</item>
+        <item>Miscellaneous</item>
+    </string-array>
+</resources>
